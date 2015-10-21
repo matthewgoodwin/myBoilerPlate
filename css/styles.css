@@ -1,0 +1,22 @@
+* {
+     /*border: 1px solid red !important;
+    /*background-color: rgb(232, 232, 232);*/
+}
+
+* {
+    -box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+/*boostrap background color, but do not need the !important tag*/
+body {
+    background-color: rgb(232, 232, 232) !important;
+    /*set width for the entire page here!!
+    i.e.
+	width:960px;
+	width:90%;
+	margin:0;
+	padding:0;
+    */
+}
