@@ -14,9 +14,15 @@ body {
     background-color: rgb(232, 232, 232) !important;
     /*set width for the entire page here!!
     i.e.
-	width:960px;
-	width:90%;
-	margin:0;
-	padding:0;
+    width:960px;
+    width:90%;
+    margin:0 auto; this centers the image or wrapper div
     */
 }
+/*@media screen and (max-width: 959px){
+    #container {
+        width: 100%;
+    }
+} less than 959px will scale down..
+this needs to be repeated with all 
+tags and should be scaled based on their percentage in the container*/
