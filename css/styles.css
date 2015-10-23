@@ -14,10 +14,21 @@ body {
     background-color: rgb(232, 232, 232) !important;
     /*set width for the entire page here!!
     i.e.
-    width:960px;
-    width:90%;
-    margin:0 auto; this centers the image or wrapper div
+	width:960px;
+	width:90%;
+	margin:0 auto; this centers the image or wrapper div
     */
+}
+.container {
+    width: 100%;
+    margin: 0px auto;
+
+}
+nav{
+    background-color: white;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
 }
 /*@media screen and (max-width: 959px){
     #container {
