@@ -30,6 +30,7 @@ nav{
     margin-top: 10px;
     display: flex;
 }
+
 /*gives each column a specific setting*/
 .col-1{
     width: 8.333%;
@@ -78,7 +79,6 @@ nav{
 .col-12{
     width: 100%;
 }
-
 /*@media screen and (max-width: 959px){
     #container {
         width: 100%;

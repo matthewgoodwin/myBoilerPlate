@@ -13,8 +13,33 @@
 </head>
 <body>
     <div class="container">
-        
+
+        <!-- sectios will not appear until Json object has content 
+
+        <div id="projects">
+            <h2>Projects</h2>
+        </div>
+
+        -->
+
     </div>
+
+
+
+
+
+
+    <!--this ensures that if the Json object does not exist that the section below does not appear
+
+<script type="text/javascript">
+if(document.getElementsByClassName('project-entry').length === 0) {
+      document.getElementById('projects').style.display = 'none';
+    }
+</script> -->
+
+<script src="js/builder.js"></script>
+<script src="js/support.js"></script>
+<script src="js/library.js"></script>
 
 <script type="text/javascript" src="js/lib/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/lib/skrollr.min.js"></script>

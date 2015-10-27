@@ -1,0 +1,1 @@
+/*this sections is designed for javascript code reuse, prototypes*/
