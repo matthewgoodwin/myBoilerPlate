@@ -12,6 +12,7 @@
 /*boostrap background color, but do not need the !important tag*/
 body {
     background-color: rgb(232, 232, 232) !important;
+    font-family: 'Lato', sans-serif;
     /*set width for the entire page here!!
     i.e.
 	width:960px;
@@ -23,6 +24,9 @@ body {
     width: 100%;
     margin: 0px auto;
 
+}
+.row{
+    max-width: 100%;
 }
 nav{
     background-color: white;
