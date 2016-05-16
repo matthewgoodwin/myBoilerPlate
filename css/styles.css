@@ -24,6 +24,18 @@ body {
     margin: 0px auto;
 
 }
+.row {
+    max-width:100%;
+}
+.mainRow {
+    margin: 0px auto;
+}
+.block{
+    display: block;
+}
+.flex{
+    display: flex;
+}
 nav{
     background-color: white;
     height: 50px;
